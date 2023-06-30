@@ -14,6 +14,9 @@
 .fonty{
     font-family: var(--font-para);
 }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 229, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 .main{
     background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(24, 23, 23, 0.9)),url("./Assets/background.avif");
     background-repeat: no-repeat;
@@ -30,9 +33,9 @@
     border-bottom: 1px solid skyblue;
     transition: 0.5s all;
 }
-.navi{
+/* .navi{
     border-bottom: 1px solid black;
-}
+} */
 #home:hover{
     color: red;
     border-bottom: 1px solid bl;
@@ -60,7 +63,8 @@
 {
     .navi{
         /* margin-left: 30px; */
-        background-color: black;
+        background-color: rgb(0, 0, 0,0.5);
+        color: #FFFFFF;
         padding-top: 3px;
     }
     /* .navbar-nav{
@@ -81,9 +85,9 @@
     .navi{
         margin-left: 65px;
     }
-    /* .navbar-nav{
+    .navbar-nav{
         width: 10px;
-    } */
+    }
 }
 @media (min-width:992px)
 {
@@ -92,6 +96,10 @@
     }
     html{
         scroll-padding: 40px;
+    }
+    .navbar{
+        background-color: black;
+        opacity: 0.8;
     }
 }
 @media (min-width:1020px)
