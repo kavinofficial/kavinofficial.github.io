@@ -59,29 +59,31 @@
 @media(max-width:768px)
 {
     .navi{
-        margin-left: 30px;
+        /* margin-left: 30px; */
+        background-color: black;
+        padding-top: 3px;
     }
-    .navbar-nav{
+    /* .navbar-nav{
         width: 10px;
-    }
+    } */
 }
 @media (min-width:768px)
 {
     .navi{
         margin-left: 50px;
     }
-    .navbar-nav{
+    /* .navbar-nav{
         width: 10px;
-    }
+    } */
 }
 @media (min-width:850px)
 {
     .navi{
         margin-left: 65px;
     }
-    .navbar-nav{
+    /* .navbar-nav{
         width: 10px;
-    }
+    } */
 }
 @media (min-width:992px)
 {
